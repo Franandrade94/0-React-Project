@@ -47,28 +47,32 @@
     }
     
     .chef-rank-1 img{
-        margin-top: -0% !important;
+        margin-top: -8% !important;
+        margin-right: 2%;
     }
     
-    
+    .chef-rank-2 img{
+        margin-top: -5% !important;
+        width: 20vw;
+    }
     
     .TopChefrank-img-1 {
-        width: 7vw !important;
-        height: 5vh !important;
+        width: 8vw !important;
+        height: 6vh !important;
         margin-bottom: -10%;
         z-index: 1000;
     }
     
     .TopChefrank-img-2 {
-        width: 7vw !important;
-        height: 5vh !important;
+        width: 7.5vw !important;
+        height: 5.5vh !important;
         margin-bottom: -10%;
         z-index: 1000;
     }
     
     .TopChefrank-img-3 {
-        width: 7vw !important;
-        height: 5vh !important;
+        width: 6vw !important;
+        height: 4vh !important;
         margin-bottom: -10%;
         z-index: 1000;
     }
@@ -128,14 +132,14 @@
     }
     
     .chef-rank-1 img{
-        margin-top: -0% !important;
+        margin-top: -4% !important;
     }
     
     
     
     .TopChefrank-img-1 {
-        width: 7vw !important;
-        height: 5vh !important;
+        width: 8vw !important;
+        height: 6vh !important;
         margin-bottom: -10%;
         z-index: 1000;
     }
@@ -148,8 +152,8 @@
     }
     
     .TopChefrank-img-3 {
-        width: 7vw !important;
-        height: 5vh !important;
+        width: 6vw !important;
+        height: 4vh !important;
         margin-bottom: -10%;
         z-index: 1000;
     }
