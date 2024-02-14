@@ -27,9 +27,9 @@ const RestoCard2 = () => {
                 className={hovered ? "blurred" : ""}
             />
             {hovered && <div className="resto-name">
-                <h5 style={{ color: '#ffb700' }}>{restaurant.name}</h5>
-                <h5>{restaurant.especial}</h5>
-                <h6 style={{ color: '#ffb700' }}>{restaurant.ubication}</h6>
+                <p style={{ color: '#ffb700' }}>{restaurant.name}</p>
+                <p>{restaurant.especial}</p>
+                <p style={{ color: '#ffb700' }}>{restaurant.ubication}</p>
             </div>}
         </div>
     );
