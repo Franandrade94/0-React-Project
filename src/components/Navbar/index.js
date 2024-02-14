@@ -167,7 +167,7 @@ function _NavBar() {
           </div>
 
           <div className='button-nav'>
-            <GoSearch style={{ marginRight: '5%', color: '#ffb700', fontSize: '30px', marginTop: '1%' }}/>
+            <GoSearch className='search-icon' style={{ marginRight: '5%', color: '#ffb700', fontSize: '30px', marginTop: '1%' }}/>
             <button className='contact-button'>Iniciar sesion</button>
             <button className='contact-button'>Crear cuenta</button>
           </div>
