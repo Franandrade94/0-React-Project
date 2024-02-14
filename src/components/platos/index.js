@@ -59,7 +59,7 @@ const Platos = () => {
                                 <img className='plato-chef-image' src={plato.chef.chefimage} alt={plato.chef.chefname} />
                                 <p>{plato.chef.chefname}</p>
                             </div>
-                            <p style={{ color:"rgb(255, 183, 0)", fontSize:'40px'}}>{renderStars(plato.rating)}</p>
+                            <p className='stars-plato' style={{ color:"rgb(255, 183, 0)", fontSize:'40px'}}>{renderStars(plato.rating)}</p>
                         </div>
                     </div>
                 </div>

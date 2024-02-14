@@ -39,7 +39,7 @@
     }
     
     .plato-nombre {
-        font-size: 1.5rem;
+        font-size: 20px;
         color: white;
         margin-bottom: 10px;
     }
@@ -59,6 +59,10 @@
     
     .chef-info p {
         color: white;
+    }
+
+    .stars-plato{
+        font-size: 20px !important;
     }
     
     .Image-plato-container:hover img {
