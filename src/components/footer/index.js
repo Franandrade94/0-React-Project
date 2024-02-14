@@ -18,7 +18,7 @@ const Footer = () => {
                     <h1 style={{ fontSize: "50px", fontWeight: '700' }}>Logo</h1>
                     <p style={{ fontSize: "15px" }}>correo</p>
                 </div>
-                <div style={{ textAlign:'right' }} className='footer-content'>
+                <div style={{ textAlign:'right' }} className='footer-content2'>
                     <h4 style={{ fontSize: "20px",fontWeight: '600' }}>Comunidad</h4>
                     <p style={{ fontSize: "15px" }}>imput</p>
                     <p style={{ fontSize: "15px" }}>imput</p>

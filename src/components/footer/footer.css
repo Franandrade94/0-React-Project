@@ -9,7 +9,7 @@
     }
     
     .footer-section1 {
-        text-align: left;
+        text-align: left !important;
     }
     
     .footer-section2 {
@@ -22,6 +22,12 @@
     }
     
     .footer-content {
+        flex: 1;
+        margin-right: 20px; 
+    }
+
+    .footer-content2{
+        text-align: left !important;
         flex: 1;
         margin-right: 20px; 
     }
@@ -63,6 +69,13 @@
     
     .footer-content {
         flex: 1;
+        margin-right: 20px;
+        text-align: center; 
+    }
+
+    .footer-content2{
+        text-align: right !important;
+        flex: 1;
         margin-right: 20px; 
     }
 }
@@ -94,6 +107,11 @@
     }
     
     .footer-content {
+        flex: 1;
+        margin-right: 20px; 
+    }
+    .footer-content2{
+        text-align: right !important;
         flex: 1;
         margin-right: 20px; 
     }
