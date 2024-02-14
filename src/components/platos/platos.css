@@ -41,13 +41,13 @@
     .plato-nombre {
         font-size: 15px;
         color: white;
-        margin-bottom: 10px;
+        margin-bottom: 1%;
     }
     
     .chef-info {
         display: flex;
         align-items: center;
-        margin-bottom: 10px;
+        margin-bottom: 1%;
     }
     
     .chef-info img {
@@ -62,6 +62,7 @@
     }
 
     .stars-plato{
+        margin-top: 1%;
         font-size: 20px !important;
     }
     
