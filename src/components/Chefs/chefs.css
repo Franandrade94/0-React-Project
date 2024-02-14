@@ -1,97 +1,127 @@
 @media only screen and (max-width: 767px){
 
-    .Roles-Section{
-        background-color: #007f79;
-        padding-top: 5%;
-        padding-bottom: 5%;
+    .Chefs-Section{
+        padding-top: 0%;
+        margin-bottom: 0%;
     }
 
-    .Roles-container{
-        background-color: #007f79;
+    .Chefs-container{
         overflow: hidden;
         margin-top: 0%;
-        padding-top: 22%;
-        padding-bottom: 8.5%;
+        padding-top: 4%;
+        padding-bottom: 6%;
     }
 
-
-    .Roles-title{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 10%;
-        padding-bottom: 15%;
-    }
-
-    .Roles-title h2{
-        color: #2B2E30;
+    .Chefs-title h2{
         text-align: center;
-        font-size: 36px;
+        font-size: 35px;
         font-weight: 700;
+        color: #ffb700;
     }
 
-    .Roles-title span{
+    .Chefs-title span{
         color: white;
     }
 
-    .RolesCards{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10%;
+
+    .Slider-container {
+        margin-top: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+
+    .slick-prev,
+    .slick-next {
+        width: auto !important;
+        height: 12% !important;
+    }
+
+    .slick-next{
+        margin-left: 20% !important;
+    }
+
+    .ChefsCards{
+        margin-left: 20%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .Chefs-cards-button{
+        background-color: rgb(255, 183, 0);
+        border: solid 2px rgb(255, 183, 0);
+        border-radius: 5px;
+        margin-top: 3%;
+        padding: 0.6% 4%;
+        font-weight: 600;
+    }
+
+    .Chefs-cards-button:hover{
+        background-color: rgb(204, 146, 0);
+        border: solid 2px rgb(204, 146, 0);
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px){
     
-    .Roles-Section{
-        background-color: #007f79;
-        padding-top: 5%;
-        padding-bottom: 15%;
+    .Chefs-Section{
+        padding-top: 0%;
+        margin-bottom: 0%;
     }
 
-    .Roles-container{
-    background-color: #007f79;
-    overflow: hidden;
-    margin-top: 0%;
-    padding-top: 8.5%;
-    padding-bottom: 8.5%;
-}
+    .Chefs-container{
+        overflow: hidden;
+        margin-top: 0%;
+        padding-top: 4%;
+        padding-bottom: 6%;
+    }
 
-.Roles-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .Chefs-title h2{
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+        color: #ffb700;
+    }
 
-.Roles-title h2{
-    color: #2B2E30;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 10%;
-}
+    .Chefs-title span{
+        color: white;
+    }
 
-.Roles-title span{
-    color: white;
-}
 
-.RoleCards-container{
-    display: grid;
-    margin-top: 0%;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5%;
-    margin-left: 5%;
-    margin-right: 5%; 
-}
+    .Slider-container {
+        margin-top: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
 
-.RolesCards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
-    width: 100%;
-}
+    .slick-prev,
+    .slick-next {
+        width: auto !important;
+        height: 12% !important;
+    }
+
+    .slick-next{
+        margin-left: 20% !important;
+    }
+
+    .ChefsCards{
+        margin-left: 20%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .Chefs-cards-button{
+        background-color: rgb(255, 183, 0);
+        border: solid 2px rgb(255, 183, 0);
+        border-radius: 5px;
+        margin-top: 3%;
+        padding: 0.6% 4%;
+        font-weight: 600;
+    }
+
+    .Chefs-cards-button:hover{
+        background-color: rgb(204, 146, 0);
+        border: solid 2px rgb(204, 146, 0);
+    }
 }
 
 @media (min-width: 1024px) {
@@ -155,4 +185,6 @@
         background-color: rgb(204, 146, 0);
         border: solid 2px rgb(204, 146, 0);
     }
+    
 }
+

@@ -4,16 +4,22 @@ import React, { useEffect, useRef, useState } from "react";
 import { animateScroll as scroll } from "react-scroll";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { GoSearch } from "react-icons/go";
 
 function _NavBar() {
 
+
   const [menuOpen, setMenuOpen] = useState(false);
+
   const [ clicked, setClicked ] = useState(false);
   const [currentSection, setCurrentSection] = useState("Home");
+
+  //---------- NAVBAR SECTION INDICATOR ----------
 
   useEffect(() => {
     
     const handleScroll = () => {
+      
       const homeSection = document.getElementById("Home");
       const chefSection = document.getElementById("ChefPage");
       const restaurantSection = document.getElementById("RestaurantPage");
@@ -45,6 +51,9 @@ function _NavBar() {
     }
   }, []);
 
+
+  //---------- CLOSE MENU ON CLICK OUTSIDE ----------
+
   const navbarRef = useRef(null);
 
   useEffect(() => {
@@ -65,6 +74,9 @@ function _NavBar() {
     };
   }, []);
 
+
+  //---------- SCROLL TO ----------
+
   const handleClick = () => {
     setClicked(!clicked)
   }
@@ -81,6 +93,8 @@ function _NavBar() {
     scroll.scrollTo(document.getElementById("RestaurantPage").offsetTop);
   }
 
+  
+
   const handleClickHome = () => {
     scrollToHome();
     setMenuOpen(false);
@@ -96,13 +110,17 @@ function _NavBar() {
     setMenuOpen(false);
   }
 
+  
+
+
   return (
     <Navbar bg="light" expand="lg" className='navbar-custom' ref={navbarRef}>
       <Container>
         <Navbar.Toggle onClick={() => setMenuOpen(!menuOpen)} aria-controls="basic-navbar-nav" className='Toggle'/>
         <Navbar.Collapse className='navbar-collapse' in={menuOpen} id="basic-navbar-nav" expanded={menuOpen}>
           <Nav className="me-auto" style={{ fontSize:'75%'  }}>
-            <Nav.Link 
+
+          <Nav.Link 
               href="#home" 
               onClick={handleClickHome}
               style={{ 
@@ -110,9 +128,10 @@ function _NavBar() {
               }} 
               className='Solution-Drop'
               aria-controls="basic-navbar-nav"
-            >
-              <p className={ currentSection === "Home" ? "current" : "" }>Home</p>
+              >
+                <p className={ currentSection === "Home" ? "current" : "" }>Home</p>
             </Nav.Link> 
+           
             <Nav.Link 
               href="#home" 
               onClick={handleClickChefs}
@@ -121,9 +140,10 @@ function _NavBar() {
               }} 
               className="product-link"
               aria-controls="basic-navbar-nav"
-            >
-              <p className={ currentSection === "ChefPage" ? "current" : "" }>Chef</p>
+              >
+                <p className={ currentSection === "ChefPage" ? "current" : "" }>Chef</p>
             </Nav.Link>
+            
             <Nav.Link 
               href="#home" 
               onClick={handleClickRestaurants}
@@ -132,18 +152,24 @@ function _NavBar() {
               }} 
               className='Solution-Drop'
               aria-controls="basic-navbar-nav"
-            >
-              <p className={ currentSection === "RestaurantPage" ? "current" : "" }>Restaurantes</p>
+              >
+                <p className={ currentSection === "RestaurantPage" ? "current" : "" }>Restaurantes</p>
             </Nav.Link>
+                
+            <select id="busqueda" className='select-busqueda'>
+              <option value="opcion1">busqueda</option>
+            </select>
+          
           </Nav>
 
-          <div className="d-flex justify-content-center align-items-center">
-            <h1 className="mr-3">LOGO</h1>
+          <div className='Logo-Nav'>
+            <h1>LOGO</h1>
           </div>
 
-          <div className="d-flex align-items-center ml-auto"> 
-            <button className='contact-button mr-2'>CONTACT</button>
-            <button className='contact-button'>CONTACT</button>
+          <div className='button-nav'>
+            <GoSearch style={{ marginRight: '5%', color: '#ffb700', fontSize: '30px', marginTop: '1%' }}/>
+            <button className='contact-button'>Iniciar sesion</button>
+            <button className='contact-button'>Crear cuenta</button>
           </div>
           
         </Navbar.Collapse>

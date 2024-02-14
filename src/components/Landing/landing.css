@@ -1,30 +1,210 @@
 @media only screen and (max-width: 767px){
 
-    .slider-container {
-        background-color: rgb(68, 255, 0);
-        height: 100vh;
-        width: 100vw;
-        margin: 0% !important;
-      }
+  .slider-container {
+    position: relative;
+  }
+  
+  .arrows-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1; /* Asegura que las flechas estén por encima de las imágenes */
+  }
+  
+  .prev-arrow,
+  .next-arrow {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .prev-arrow {
+    margin-left: 12px;
+  }
+  
+  .next-arrow {
+    margin-right: 12px;
+  }
+  
+  .slick-dots {
+    position: absolute;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
-    .Card-size img{
-        width: 100vw;
-        height: 100vh;
-    }
+  .slick-dots li button:before {
+    opacity: 0;
+}
+
+.slick-dots li button:hover:before {
+    opacity: 0;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 0;
+}
+  
+  
+  
+  .slick-dots li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    cursor: pointer;        
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: rgb(255, 183, 0);
+  }
+
+  .Card-size img{
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-redes-container {
+  position: absolute;
+  top: 87.5%;
+  left: 23%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-redes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 183, 0);
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.home-redes:hover{
+background-color: rgb(196, 140, 0);
+}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px){
-    .slider-container {
-        background-color: rgb(68, 255, 0);
-        height: 100vh;
-        width: 100vw;
-        margin: 0% !important;
-      }
+  .slider-container {
+    position: relative;
+  }
+  
+  .arrows-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1; /* Asegura que las flechas estén por encima de las imágenes */
+  }
+  
+  .prev-arrow,
+  .next-arrow {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .prev-arrow {
+    margin-left: 30px;
+  }
+  
+  .next-arrow {
+    margin-right: 30px;
+  }
+  
+  .slick-dots {
+    position: absolute;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
-    .Card-size img{
-        width: 100vw;
-        height: 100vh;
-    }
+  .slick-dots li button:before {
+    opacity: 0;
+}
+
+.slick-dots li button:hover:before {
+    opacity: 0;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 0;
+}
+  
+  
+  
+  .slick-dots li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    cursor: pointer;        
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: rgb(255, 183, 0);
+  }
+
+  .Card-size img{
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-redes-container {
+  position: absolute;
+  top: 91%;
+  left: 37.8%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-redes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 183, 0);
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.home-redes:hover{
+background-color: rgb(196, 140, 0);
+}
 }
 
 @media (min-width: 1024px) {

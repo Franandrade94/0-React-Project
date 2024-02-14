@@ -1,36 +1,101 @@
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    color: #ffb700;
-    margin:5%;
-    height: 20vh;
-}
+@media only screen and (max-width: 767px){
+    .footer-container {
 
-.footer-section1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+        display: flex;
+        flex-direction: column;
+        color: #ffb700;
+        margin:5%;
+        height: 20vh;
+    }
+    
+    .footer-section1 {
+        text-align: left;
+    }
+    
+    .footer-section2 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8%;
+        margin-bottom: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .footer-content {
+        flex: 1;
+        margin-right: 20px; 
+    }
 
-.footer-section2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 8%;
-    margin-bottom: 0%;
-    margin-left: 30%;
-    margin-right: 30%;
-}
-
-.footer-content {
-    flex: 1;
-    margin-right: 20px; 
-}
-
-@media screen and (max-width: 768px) {
     .footer-content {
         flex-basis: 100%;
         margin-right: 0;
         margin-bottom: 0px;
     }
+
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .footer-container {
+
+        display: flex;
+        flex-direction: column;
+        color: #ffb700;
+        margin:5%;
+        height: 20vh;
+    }
+    
+    .footer-section1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .footer-section2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 8%;
+        margin-bottom: 0%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    
+    .footer-content {
+        flex: 1;
+        margin-right: 20px; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-container {
+
+        display: flex;
+        flex-direction: column;
+        color: #ffb700;
+        margin:5%;
+        height: 20vh;
+    }
+    
+    .footer-section1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .footer-section2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 8%;
+        margin-bottom: 0%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    
+    .footer-content {
+        flex: 1;
+        margin-right: 20px; 
+    }
+}
+

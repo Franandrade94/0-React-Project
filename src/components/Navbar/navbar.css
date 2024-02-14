@@ -12,17 +12,20 @@
         left: 0;
         margin-left: auto;
         margin-right: 0%;
-        margin-top: -18%;
+        margin-top: 0%;
+        color: #ffb700 !important;
     }
     
+    .navbar-toggler-icon{
+        color: #ffb700 !important;
+    }
     
     .navbar-custom {
         position: fixed;
         top: 0;
         width: 100vw;
-        z-index: 1005 !important; /* Cambia el valor de z-index */
-        box-shadow: 1px 1px 10px rgba(60, 60, 60, 0.368);
-        color: black !important;
+        z-index: 1005 !important;
+        color: #ffb700 !important;
         font-weight: bold;
         background-color: rgba(255, 255, 255, 0) !important;
         letter-spacing: 1px !important;
@@ -78,21 +81,26 @@
     .contact-button{
         margin-top: 4.2%;
         margin-bottom: 5%;
-        background-color: #007f79;
-        border: 3px solid #007f79;
+        background-color: #ffb700;
+        border: 3px solid #ffb700;
         border-radius: 15px;
         padding: 1.7% 2%;
         color: white;
         font-weight: bold;
         font-size: 14px;
         letter-spacing: 1px;
-        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.201);
     }
     
-    .contact-button:hover {
-        background-color: rgb(255, 255, 255);
-        border: 3px solid #007f79;
-        color: #007f79;
+    .select-busqueda{
+        background-color: transparent;
+        border: none;
+        color:#ffb700;
+        font-size: 13px;
+        font-weight: 700 !important;
+        letter-spacing: 0.5px !important;
+        width: 25vw !important;
+        margin-left: 40%;
+        margin-bottom: 8%;
     }
     
 
@@ -116,14 +124,16 @@
     .Toggle::after{
         outline: none !important;
     }
+    .navbar-toggler-icon{
+        color: #ffb700 !important;
+    }
     
     .navbar-custom {
         position: fixed;
         top: 0;
         width: 100vw;
-        z-index: 1005 !important; /* Cambia el valor de z-index */
-        box-shadow: 1px 1px 10px rgba(60, 60, 60, 0.368);
-        color: black !important;
+        z-index: 1005 !important; 
+        color: #ffb700 !important;
         font-weight: bold;
         background-color: rgba(255, 255, 255, 0) !important;
         letter-spacing: 1px !important;
@@ -181,21 +191,26 @@
         margin-left: -19%;
         margin-top: 4.2%;
         margin-bottom: 5%;
-        background-color: #007f79;
-        border: 3px solid #007f79;
+        background-color: #ffb700;
+        border: 3px solid #ffb700;
         border-radius: 15px;
         padding: 1.7% 2%;
         color: white;
         font-weight: bold;
         font-size: 14px;
         letter-spacing: 1px;
-        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.201);
     }
     
-    .contact-button:hover {
-        background-color: rgb(255, 255, 255);
-        border: 3px solid #007f79;
-        color: #007f79;
+    .select-busqueda{
+        background-color: transparent;
+        border: none;
+        color:#ffb700;
+        font-size: 13px;
+        font-weight: 700 !important;
+        letter-spacing: 0.5px !important;
+        width: 25vw !important;
+        margin-left: 40%;
+        margin-bottom: 8%;
     }
 
 }
@@ -207,7 +222,8 @@
         margin-right: 0%;
         background-color: rgba(255, 255, 255, 0);
         padding: 0%;
-        margin-top: -13%;
+        margin-top: 0%;
+        color:#ffb700 !important;
     }
     .Toggle:active{
         outline:  none !important;
@@ -216,14 +232,17 @@
     .Toggle::after{
         outline: none !important;
     }
+
+    .navbar-toggler-icon{
+        color: #ffb700 !important;
+    }
     
     .navbar-custom {
         position: fixed;
         top: 0;
         width: 100vw;
-        z-index: 1005 !important; /* Cambia el valor de z-index */
-        box-shadow: 1px 1px 10px rgba(60, 60, 60, 0.368);
-        color: black !important;
+        z-index: 1005 !important;
+        color: #ffb700 !important;
         font-weight: bold;
         background-color: rgba(255, 255, 255, 0) !important;
         letter-spacing: 1px !important;
@@ -279,22 +298,28 @@
         margin-left: 0%;
         margin-top: 4.2%;
         margin-bottom: 5%;
-        background-color: #007f79;
-        border: 3px solid #007f79;
+        background-color: #ffb700;
+        border: 3px solid #ffb700;
         border-radius: 15px;
         padding: 1.7% 2%;
         color: white;
         font-weight: bold;
         font-size: 14px;
         letter-spacing: 1px;
-        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.201);
     }
     
-    .contact-button:hover {
-        background-color: rgb(255, 255, 255);
-        border: 3px solid #007f79;
-        color: #007f79;
+    .select-busqueda{
+        background-color: transparent;
+        border: none;
+        color:#ffb700;
+        font-size: 13px;
+        font-weight: 700 !important;
+        letter-spacing: 0.5px !important;
+        width: 12vw !important;
+        margin-left: 45%;
+        margin-bottom: 8%;
     }
+
 }
 
 
@@ -305,7 +330,7 @@
         margin-right: 0%;
         background-color: rgba(255, 255, 255, 0);
         padding: 5%;
-        margin-top: -15%;
+        margin-top: 0%;
     }
     .Toggle:active{
         outline:  none !important;
@@ -314,14 +339,16 @@
     .Toggle::after{
         outline: none !important;
     }
+    .navbar-toggler-icon{
+        color: #ffb700 !important;
+    }
     
     .navbar-custom {
         position: fixed;
         top: 0;
         width: 100vw;
-        z-index: 1005 !important; /* Cambia el valor de z-index */
-        box-shadow: 1px 1px 10px rgba(60, 60, 60, 0.368);
-        color: black !important;
+        z-index: 1005 !important; 
+        color: #ffb700 !important;
         font-weight: bold;
         background-color: rgba(255, 255, 255, 0) !important;
         letter-spacing: 1px !important;
@@ -379,21 +406,26 @@
         margin-left: -0%;
         margin-top: 4.2%;
         margin-bottom: 5%;
-        background-color: #007f79;
-        border: 3px solid #007f79;
+        background-color: #ffb700;
+        border: 3px solid #ffb700;
         border-radius: 15px;
         padding: 1.7% 2%;
         color: white;
         font-weight: bold;
         font-size: 14px;
         letter-spacing: 1px;
-        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.201);
     }
     
-    .contact-button:hover {
-        background-color: rgb(255, 255, 255);
-        border: 3px solid #007f79;
-        color: #007f79;
+    .select-busqueda{
+        background-color: transparent;
+        border: none;
+        color:#ffb700;
+        font-size: 13px;
+        font-weight: 700 !important;
+        letter-spacing: 0.5px !important;
+        width: 12vw !important;
+        margin-left: 45%;
+        margin-bottom: 8%;
     }
 }
 
@@ -413,16 +445,18 @@
     .Toggle::after{
         outline: none !important;
     }
+
+    .navbar-toggler-icon{
+        color: #ffb700 !important;
+    }
     
     .navbar-custom {
         position: fixed;
         top: 0;
         width: 100vw;
-        z-index: 1005 !important; /* Cambia el valor de z-index */
-        box-shadow: 1px 1px 10px rgba(60, 60, 60, 0.368);
-        color: black !important;
+        z-index: 1005 !important; 
+        color: #ffb700 !important;
         font-weight: bold;
-        background-color: rgba(255, 255, 255, 0) !important;
         letter-spacing: 1px !important;
         height: auto;
         padding-top: 4%;
@@ -477,21 +511,23 @@
         margin-left: -21.5%;
         margin-top: 4.2%;
         margin-bottom: 5%;
-        background-color: #007f79;
-        border: 3px solid #007f79;
+        background-color: #ffb700;
+        border: 3px solid #ffb700;
         border-radius: 15px;
         padding: 1.7% 2%;
         color: white;
         font-weight: bold;
         font-size: 14px;
         letter-spacing: 1px;
-        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.201);
     }
     
-    .contact-button:hover {
-        background-color: rgb(255, 255, 255);
-        border: 3px solid #007f79;
-        color: #007f79;
+    .select-busqueda{
+        background-color: transparent;
+        border: none;
+        color:#ffb700;
+        font-size: 13px;
+        font-weight: 500 !important;
+        letter-spacing: 0.5px !important;
     }
 }
 
@@ -516,9 +552,8 @@
         position: fixed;
         top: 0;
         width: 100vw;
-        z-index: 1005 !important; /* Cambia el valor de z-index */
-        box-shadow: 1px 1px 10px rgba(60, 60, 60, 0.368);
-        color: black !important;
+        z-index: 1005 !important; 
+        color: #ffb700 !important;
         font-weight: bold;
         background-color: rgba(255, 255, 255, 0) !important;
         letter-spacing: 1px !important;
@@ -577,21 +612,25 @@
         margin-top: 4.2%;
         margin-bottom: 5%;
         margin-left: -21.2% !important;
-        background-color: #007f79;
-        border: 3px solid #007f79;
+        background-color: #ffb700;
+        border: 3px solid #ffb700;
         border-radius: 15px;
         padding: 1.7% 2%;
         color: white;
         font-weight: bold;
         font-size: 14px;
         letter-spacing: 1px;
-        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.201);
     }
     
-    .contact-button:hover {
-        background-color: rgb(255, 255, 255);
-        border: 3px solid #007f79;
-        color: #007f79;
+    .select-busqueda{
+        background-color: transparent;
+        border: none;
+        color:#ffb700;
+        font-size: 13px;
+        font-weight: 500 !important;
+        letter-spacing: 0.5px !important;
+        margin-top: -3%;
+        margin-left: 2%;
     }
 }
 
@@ -610,7 +649,7 @@
         padding-bottom: 1.6%;
         color: #ffb700 !important;
         background-color: rgba(255, 255, 255, 0) !important;
-        font-weight: 700 !important;
+        font-weight: 500 !important;
         letter-spacing: 1.5px !important;
         z-index: 1005 !important;      
     }
@@ -635,7 +674,7 @@
         border: 3px solid #ffb700;
         border-radius: 5px;
         padding: .7% 1%;
-        color: white;
+        color: rgb(30, 30, 30);
         font-weight: bold;
         font-size: 14px;
         letter-spacing: 1px;
@@ -682,4 +721,29 @@
         display: 'inline-block' !important;
         background-color: rgba(255, 0, 0, 0);
     }
+
+    .Logo-Nav{ 
+        font-weight: 700;
+        text-align: left;
+        width: 21vw;
+    }
+
+    .button-nav{
+        width: 25vw;
+        display: flex;
+        text-align: right;
+        justify-content: right;
+    }
+
+    .select-busqueda{
+        background-color: transparent;
+        border: none;
+        color:#ffb700;
+        font-size: 13px;
+        font-weight: 500 !important;
+        letter-spacing: 0.5px !important;
+        margin-top: -3%;
+        margin-left: 2%;
+    }
+
 }
