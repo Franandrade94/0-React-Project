@@ -5,7 +5,7 @@
         flex-direction: column;
         color: #ffb700;
         margin:5%;
-        height: 20vh;
+        height: auto;
     }
     
     .footer-section1 {
@@ -48,7 +48,7 @@
         flex-direction: column;
         color: #ffb700;
         margin:5%;
-        height: 20vh;
+        height: auto;
     }
     
     .footer-section1 {
@@ -87,7 +87,7 @@
         flex-direction: column;
         color: #ffb700;
         margin:5%;
-        height: 20vh;
+        height: auto;
     }
     
     .footer-section1 {
