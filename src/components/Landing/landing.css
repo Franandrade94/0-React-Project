@@ -286,7 +286,7 @@ background-color: rgb(196, 140, 0);
 
     .home-redes-container {
       position: absolute;
-      top: 87.5%;
+      top: 83%;
       left: 43%;
       z-index: 1;
       display: flex;

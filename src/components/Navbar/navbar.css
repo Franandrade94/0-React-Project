@@ -13,7 +13,7 @@
         margin-left: auto;
         margin-right: 0%;
         margin-top: 0%;
-        color: #ffb700 !important;
+        background-color: #ffb700 !important;
     }
     
     .navbar-toggler-icon{
@@ -27,7 +27,7 @@
         z-index: 1005 !important;
         color: #ffb700 !important;
         font-weight: bold;
-        background-color: rgba(255, 255, 255, 0) !important;
+        background-color: rgba(28, 28, 28, 0.749) !important;
         letter-spacing: 1px !important;
         height: auto;
         padding-top: 4%;
@@ -90,6 +90,13 @@
         font-size: 14px;
         letter-spacing: 1px;
     }
+
+    .button-nav{
+        width: 25vw;
+        display: flex;
+        flex-direction: column;
+        margin-left: 39%;
+    }
     
     .select-busqueda{
         background-color: transparent;
@@ -116,6 +123,7 @@
         margin-right: 5%;
         background-color: rgba(255, 255, 255, 0);
         padding: 0%;
+        background-color: #ffb700 !important;
     }
     .Toggle:active{
         outline:  none !important;
@@ -135,7 +143,7 @@
         z-index: 1005 !important; 
         color: #ffb700 !important;
         font-weight: bold;
-        background-color: rgba(255, 255, 255, 0) !important;
+        background-color: rgba(28, 28, 28, 0.749) !important;
         letter-spacing: 1px !important;
         height: auto;
         padding-top: 4%;
@@ -223,7 +231,7 @@
         background-color: rgba(255, 255, 255, 0);
         padding: 0%;
         margin-top: 0%;
-        color:#ffb700 !important;
+        background-color: #ffb700 !important;
     }
     .Toggle:active{
         outline:  none !important;
@@ -244,7 +252,7 @@
         z-index: 1005 !important;
         color: #ffb700 !important;
         font-weight: bold;
-        background-color: rgba(255, 255, 255, 0) !important;
+        background-color: rgba(28, 28, 28, 0.749) !important;
         letter-spacing: 1px !important;
         height: auto;
         padding-top: 4%;
@@ -331,6 +339,7 @@
         background-color: rgba(255, 255, 255, 0);
         padding: 5%;
         margin-top: 0%;
+        background-color: #ffb700 !important;
     }
     .Toggle:active{
         outline:  none !important;
@@ -350,7 +359,7 @@
         z-index: 1005 !important; 
         color: #ffb700 !important;
         font-weight: bold;
-        background-color: rgba(255, 255, 255, 0) !important;
+        background-color: rgba(28, 28, 28, 0.749) !important;
         letter-spacing: 1px !important;
         height: auto;
         padding-top: 2%;
