@@ -1,0 +1,62 @@
+
+.register-container{
+    margin-top: 3%;
+    display: flex;
+}
+
+.Register-button-container{
+    background-color: #1E1E1E;
+    height: 50vh;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.button-wrapper {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Register-button-container p{
+    margin-top: 5%;
+    color: white;
+    width: 20vw;
+}
+
+.register-button{
+    background-color: rgb(255, 183, 0);
+    border: solid 2px rgb(255, 183, 0);
+    border-radius: 5px;
+    width: 9vw;
+    margin: 0% 5%;
+    padding: 0.6% 4%;
+    font-weight: 600;
+}
+
+.register-button:hover {
+    background-color: rgb(204, 146, 0);
+    border: solid 2px rgb(204, 146, 0);
+}
+
+.Image-register-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1E1E1E;
+    height: 50vh;
+    width: 65vw;
+    margin-left: 1%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.Image-register-container img{
+    width: 55vw;
+}

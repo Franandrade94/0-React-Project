@@ -1,0 +1,685 @@
+/* Estilos para modo mobile */
+.navbar-toggler{
+    color: transparent !important;
+}
+
+@media (max-width: 692px) {
+  
+    .Toggle{
+        border: none;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin-left: auto;
+        margin-right: 0%;
+        margin-top: -18%;
+    }
+    
+    
+    .navbar-custom {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        z-index: 1005 !important; /* Cambia el valor de z-index */
+        box-shadow: 1px 1px 10px rgba(60, 60, 60, 0.368);
+        color: black !important;
+        font-weight: bold;
+        background-color: rgba(255, 255, 255, 0) !important;
+        letter-spacing: 1px !important;
+        height: auto;
+        padding-top: 4%;
+        padding-bottom: 2%;
+        
+    }
+    
+    
+    .Navbar-logo{
+        width: 30vw;
+        margin-left: 7.2%;
+        margin-bottom: 1%;
+        margin-top: 0%;
+    }
+    
+      
+    .product-link {
+        margin-top: 2%;
+        margin-bottom: -2.5% !important;
+        margin-left: -0% !important;
+        
+    }
+
+    .SolutionNav{
+        text-align: center !important;
+        margin-left: -0% !important
+    }
+    
+    .api-nav{
+        margin-left: -0% !important;
+        margin-top: -3% !important;
+        display: 'inline-block' !important;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .integration-nav{
+        margin-left: -0% !important;
+        margin-right: 0% !important;
+        margin-top: -3% !important;
+        display: 'inline-block' !important;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .who-nav{
+        margin-left: -0% !important;
+        margin-top: -2.5%;
+        margin-left: auto;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    
+    .contact-button{
+        margin-top: 4.2%;
+        margin-bottom: 5%;
+        background-color: #007f79;
+        border: 3px solid #007f79;
+        border-radius: 15px;
+        padding: 1.7% 2%;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 1px;
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.201);
+    }
+    
+    .contact-button:hover {
+        background-color: rgb(255, 255, 255);
+        border: 3px solid #007f79;
+        color: #007f79;
+    }
+    
+
+}
+
+/* Estilos para modo tablet */
+
+@media (min-width: 693px) and (max-width: 768px){
+
+    .Toggle{
+        border: none;
+        margin-left: auto;
+        margin-right: 5%;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 0%;
+    }
+    .Toggle:active{
+        outline:  none !important;
+    }
+    
+    .Toggle::after{
+        outline: none !important;
+    }
+    
+    .navbar-custom {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        z-index: 1005 !important; /* Cambia el valor de z-index */
+        box-shadow: 1px 1px 10px rgba(60, 60, 60, 0.368);
+        color: black !important;
+        font-weight: bold;
+        background-color: rgba(255, 255, 255, 0) !important;
+        letter-spacing: 1px !important;
+        height: auto;
+        padding-top: 4%;
+        padding-bottom: 2%;
+        
+    }
+    
+    
+    .Navbar-logo{
+        width: 24vw;
+        margin-left: 7.2%;
+        margin-bottom: auto;
+        padding-bottom: 0%;
+        margin-top: 0%;
+        position: static;
+    }
+    
+    .product-link {
+        margin-top: 2%;
+        margin-bottom: -2.5% !important;
+        margin-left: -22% !important;
+        
+    }
+
+    .SolutionNav{
+        text-align: center !important;
+        margin-left: -20.2% !important
+    }
+    
+    .api-nav{
+        margin-left: -21.5% !important;
+        margin-top: -3% !important;
+        display: 'inline-block' !important;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .integration-nav{
+        margin-left: -19.5% !important;
+        margin-right: 0% !important;
+        margin-top: -3% !important;
+        display: 'inline-block' !important;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .who-nav{
+        margin-left: -19.5% !important;
+        margin-top: -2.5%;
+        margin-left: auto;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    
+    .contact-button{
+        margin-left: -19%;
+        margin-top: 4.2%;
+        margin-bottom: 5%;
+        background-color: #007f79;
+        border: 3px solid #007f79;
+        border-radius: 15px;
+        padding: 1.7% 2%;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 1px;
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.201);
+    }
+    
+    .contact-button:hover {
+        background-color: rgb(255, 255, 255);
+        border: 3px solid #007f79;
+        color: #007f79;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 869px) {
+    .Toggle{
+        border: none;
+        margin-left: auto;
+        margin-right: 0%;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 0%;
+        margin-top: -13%;
+    }
+    .Toggle:active{
+        outline:  none !important;
+    }
+    
+    .Toggle::after{
+        outline: none !important;
+    }
+    
+    .navbar-custom {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        z-index: 1005 !important; /* Cambia el valor de z-index */
+        box-shadow: 1px 1px 10px rgba(60, 60, 60, 0.368);
+        color: black !important;
+        font-weight: bold;
+        background-color: rgba(255, 255, 255, 0) !important;
+        letter-spacing: 1px !important;
+        height: auto;
+        padding-top: 4%;
+        padding-bottom: 2%;
+        
+    }
+    
+    
+    .Navbar-logo{
+        width: 20vw;
+        margin-left: 7.2%;
+        margin-bottom: auto;
+        padding-bottom: 1%;
+        margin-top: 0%;
+    }
+    
+    .product-link {
+        margin-top: 2%;
+        margin-bottom: -2% !important;
+        margin-left: 0% !important;
+        
+    }
+
+    .SolutionNav{
+        text-align: center !important;
+        margin-left: 0% !important;
+    }
+    
+    .api-nav{
+        margin-left: 0% !important;
+        margin-top: -2.5% !important;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .integration-nav{
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+        margin-top: -2% !important;
+        display: 'inline-block' !important;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .who-nav{
+        margin-left: 0% !important;
+        margin-top: -2%;
+        margin-left: auto;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    
+    .contact-button{
+        margin-left: 0%;
+        margin-top: 4.2%;
+        margin-bottom: 5%;
+        background-color: #007f79;
+        border: 3px solid #007f79;
+        border-radius: 15px;
+        padding: 1.7% 2%;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 1px;
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.201);
+    }
+    
+    .contact-button:hover {
+        background-color: rgb(255, 255, 255);
+        border: 3px solid #007f79;
+        color: #007f79;
+    }
+}
+
+
+@media (min-width: 870px) and (max-width: 890px) {
+    .Toggle{
+        border: none;
+        margin-left: auto;
+        margin-right: 0%;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 5%;
+        margin-top: -15%;
+    }
+    .Toggle:active{
+        outline:  none !important;
+    }
+    
+    .Toggle::after{
+        outline: none !important;
+    }
+    
+    .navbar-custom {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        z-index: 1005 !important; /* Cambia el valor de z-index */
+        box-shadow: 1px 1px 10px rgba(60, 60, 60, 0.368);
+        color: black !important;
+        font-weight: bold;
+        background-color: rgba(255, 255, 255, 0) !important;
+        letter-spacing: 1px !important;
+        height: auto;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        
+    }
+    
+    
+    .Navbar-logo{
+        width: 24vw;
+        margin-left: 7.2%;
+        margin-bottom: auto;
+        padding-bottom: 0%;
+        margin-top: 0%;
+        position: static;
+    }
+    
+    .product-link {
+        margin-top: 2%;
+        margin-bottom: -2% !important;
+        margin-left: -0% !important;
+        
+    }
+
+    .SolutionNav{
+        text-align: center !important;
+        margin-left: -0% !important
+    }
+    
+    .api-nav{
+        margin-left: -0% !important;
+        margin-top: 0% !important;
+        display: 'inline-block' !important;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .integration-nav{
+        margin-left: -0% !important;
+        margin-right: 0% !important;
+        margin-top: -2% !important;
+        display: 'inline-block' !important;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .who-nav{
+        margin-left: -0% !important;
+        margin-top: -2%;
+        margin-left: auto;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    
+    .contact-button{
+        margin-left: -0%;
+        margin-top: 4.2%;
+        margin-bottom: 5%;
+        background-color: #007f79;
+        border: 3px solid #007f79;
+        border-radius: 15px;
+        padding: 1.7% 2%;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 1px;
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.201);
+    }
+    
+    .contact-button:hover {
+        background-color: rgb(255, 255, 255);
+        border: 3px solid #007f79;
+        color: #007f79;
+    }
+}
+
+
+@media (min-width: 891px) and (max-width: 925px) {
+    .Toggle{
+        border: none;
+        margin-left: auto;
+        margin-right: 0%;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 5%;
+    }
+    .Toggle:active{
+        outline:  none !important;
+    }
+    
+    .Toggle::after{
+        outline: none !important;
+    }
+    
+    .navbar-custom {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        z-index: 1005 !important; /* Cambia el valor de z-index */
+        box-shadow: 1px 1px 10px rgba(60, 60, 60, 0.368);
+        color: black !important;
+        font-weight: bold;
+        background-color: rgba(255, 255, 255, 0) !important;
+        letter-spacing: 1px !important;
+        height: auto;
+        padding-top: 4%;
+        padding-bottom: 2%;
+        
+    }
+    
+    
+    .Navbar-logo{
+        width: 20vw;
+        margin-left: 7.2%;
+        margin-bottom: auto;
+        padding-bottom: 1%;
+        margin-top: 0%;
+    }
+    
+    .product-link {
+        margin-top: 2%;
+        margin-bottom: -2% !important;
+        margin-left: -22.5% !important;
+        
+    }
+
+    .SolutionNav{
+        text-align: center !important;
+        margin-left: -21% !important
+    }
+    
+    .api-nav{
+        margin-left: -22% !important;
+        margin-top: 0% !important;
+        display: 'inline-block' !important;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .integration-nav{
+        margin-left: -22% !important;
+        margin-right: 0% !important;
+        margin-top: -2% !important;
+        display: 'inline-block' !important;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .who-nav{
+        margin-left: -21.5% !important;
+        margin-top: -2%;
+        margin-left: auto;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    
+    .contact-button{
+        margin-left: -21.5%;
+        margin-top: 4.2%;
+        margin-bottom: 5%;
+        background-color: #007f79;
+        border: 3px solid #007f79;
+        border-radius: 15px;
+        padding: 1.7% 2%;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 1px;
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.201);
+    }
+    
+    .contact-button:hover {
+        background-color: rgb(255, 255, 255);
+        border: 3px solid #007f79;
+        color: #007f79;
+    }
+}
+
+@media (min-width: 926px) and (max-width: 992px) {
+    .Toggle{
+        border: none;
+        margin-left: auto;
+        margin-right: 0%;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 5%;
+    }
+
+    .Toggle:active{
+        outline:  none !important;
+    }
+    
+    .Toggle::after{
+        outline: none !important;
+    }
+    
+    .navbar-custom {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        z-index: 1005 !important; /* Cambia el valor de z-index */
+        box-shadow: 1px 1px 10px rgba(60, 60, 60, 0.368);
+        color: black !important;
+        font-weight: bold;
+        background-color: rgba(255, 255, 255, 0) !important;
+        letter-spacing: 1px !important;
+        height: auto;
+        padding-top: 4%;
+        padding-bottom: 2%;
+        
+    }
+    
+    
+    .Navbar-logo{
+        width: 20;
+        margin-left: 7.2%;
+        margin-bottom: auto;
+        padding-bottom: 1%;
+        margin-top: 0%;
+    }
+    
+    .product-link {
+        margin-bottom: -2.5% !important;
+        margin-right: 0% !important;
+        margin-left: -22% !important;
+        
+    }
+    
+
+    .SolutionNav{
+        text-align: center !important;
+        margin-right: 0% !important;
+        margin-left: -21% !important;
+    }
+    
+    .api-nav{
+        margin-left: -22% !important;
+        margin-top: 0% !important;
+        display: 'inline-block' !important;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .integration-nav{
+        margin-left: -22% !important;
+        margin-right: 0% !important;
+        margin-top: -2% !important;
+        display: 'inline-block' !important;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .who-nav{
+        margin-left: -21.5% !important;
+        margin-top: -2%;
+        margin-left: auto;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    
+    .contact-button{
+        margin-top: 4.2%;
+        margin-bottom: 5%;
+        margin-left: -21.2% !important;
+        background-color: #007f79;
+        border: 3px solid #007f79;
+        border-radius: 15px;
+        padding: 1.7% 2%;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 1px;
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.201);
+    }
+    
+    .contact-button:hover {
+        background-color: rgb(255, 255, 255);
+        border: 3px solid #007f79;
+        color: #007f79;
+    }
+}
+
+
+/* Estilos modo Desktop*/
+
+@media (min-width: 992px) {
+
+
+    .navbar-custom {
+        position: fixed;
+        width: 100%;
+        height: 16%;
+        top: 0;
+        padding-top: 0%;
+        padding-bottom: 1.6%;
+        color: #ffb700 !important;
+        background-color: rgba(255, 255, 255, 0) !important;
+        font-weight: 700 !important;
+        letter-spacing: 1.5px !important;
+        z-index: 1005 !important;      
+    }
+
+    .navbar-collapse{
+            
+        display: flex !important;
+        justify-content: space-between !important; 
+    }
+
+
+    .me-auto{
+        height: 5.5vh;
+        margin-top: 0%;
+        display: 'inline-block' !important;
+    }
+
+    .contact-button{
+        margin-top: 1.5%;
+        margin-right: 10.5%;
+        background-color: #ffb700;
+        border: 3px solid #ffb700;
+        border-radius: 5px;
+        padding: .7% 1%;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .contact-button:hover {
+        background-color: #dd9e00;
+        border: 3px solid #dd9e00;
+    }
+
+    .product-link {
+        margin-right: 5% !important;
+        
+    }
+
+    .Solution-Drop{
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .current{
+        border-bottom: solid 4px #ffb700;
+        width: 100%;
+        border-bottom-left-radius: 8%;
+        border-bottom-right-radius: 8%;
+    }
+    
+    .api-nav{
+        margin-left: 5% !important;
+        margin-top: 0% !important;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .integration-nav{
+        margin-left: 5% !important;
+        margin-right: 0% !important;
+        margin-top: 0% !important;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .who-nav{
+        margin-left: 5% !important;
+        margin-right: 0% !important;
+        margin-top: 0% !important;
+        display: 'inline-block' !important;
+        background-color: rgba(255, 0, 0, 0);
+    }
+}
