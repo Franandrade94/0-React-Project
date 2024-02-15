@@ -24,7 +24,7 @@
     
     .overlay {
         position: absolute;
-        margin-top: -5px;
+        margin-top: -2%;
         top: 0;
         left: 0;
         width: 100%;
@@ -113,7 +113,7 @@
     
     .overlay {
         position: absolute;
-        margin-top: -5px;
+        margin-top: -2%;
         top: 0;
         left: 0;
         width: 100%;
