@@ -125,10 +125,11 @@
     .Toggle{
         border: none;
         margin-left: auto;
-        margin-right: 5%;
+        margin-right: 0%;
         background-color: rgba(255, 255, 255, 0);
-        padding: 0%;
+        padding: 2%;
         background-color: #ffb700 !important;
+        z-index: 1000;
     }
     .Toggle:active{
         outline:  none !important;
@@ -148,12 +149,21 @@
         z-index: 1005 !important; 
         color: #ffb700 !important;
         font-weight: bold;
-        background-color: rgba(28, 28, 28, 0.749) !important;
+        background-color: rgba(28, 28, 28, 0) !important;
         letter-spacing: 1px !important;
         height: auto;
-        padding-top: 4%;
+        padding-top: 1%;
         padding-bottom: 2%;
         
+    }
+
+    .navbar-collapse{
+        background-color: rgba(0, 0, 0, 0.486) !important;
+        margin-top: -20%;
+        padding-top: 30%;
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+        width: 100vw !important;
     }
     
     

@@ -46,8 +46,8 @@
 
     .Resto-Slider-container {
         margin-top: 2%;
-        margin-left: 10%;
-        margin-right: 11%;
+        margin-left: 5%;
+        margin-right: 5%;
       }
 
     .slick-prev,
@@ -58,7 +58,7 @@
     }
 
     .RestoCards{
-        margin-left: 15%;
+        margin-left: 10%;
         margin-top: 5%;
         margin-bottom: 5%;
     }

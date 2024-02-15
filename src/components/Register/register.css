@@ -3,6 +3,9 @@
         margin-top: 3%;
         display: flex;
         flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
     
     .Register-button-container{
@@ -53,14 +56,13 @@
         align-items: center;
         text-align: center;
         background-color: #1E1E1E;
-        height: 50vh;
-        width: 85vw;
-        margin-left: 15%;
+        height: 40vh;
+        width: 80vw;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
     }
     .Image-register-container img{
-        width: 55vw;
+        width: 100vw;
     }
 }
 
@@ -69,11 +71,14 @@
         margin-top: 3%;
         display: flex;
         flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
     
     .Register-button-container{
         background-color: #1E1E1E;
-        height: 40vh;
+        height: 30vh;
         width: 80vw;
         display: flex;
         flex-direction: column;
@@ -119,14 +124,13 @@
         align-items: center;
         text-align: center;
         background-color: #1E1E1E;
-        height: 50vh;
-        width: 85vw;
-        margin-left: 15%;
+        height: 30vh;
+        width: 80vw;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
     }
     .Image-register-container img{
-        width: 55vw;
+        width: 100vw;
     }
 }
 

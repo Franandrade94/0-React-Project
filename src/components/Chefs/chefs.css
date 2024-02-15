@@ -1,8 +1,7 @@
 @media only screen and (max-width: 767px){
 
     .Chefs-Section{
-        padding-top: 0%;
-        margin-bottom: 0%;
+        margin: 5% 4%;
     }
 
     .Chefs-container{
@@ -14,7 +13,7 @@
 
     .Chefs-title h2{
         text-align: center;
-        font-size: 35px;
+        font-size: 25px;
         font-weight: 700;
         color: #ffb700;
     }
@@ -25,23 +24,26 @@
 
 
     .Slider-container {
-        margin-top: 2%;
+        margin-top: 10%;
         margin-left: 10%;
         margin-right: 10%;
       }
 
-    .slick-prev,
-    .slick-next {
-        width: auto !important;
-        height: 12% !important;
-    }
+        .slick-prev,
+        .slick-next {
+            width: auto !important;
+            height: 12% !important;
+        }
 
-    .slick-next{
-        margin-left: 20% !important;
-    }
+        .slick-next{
+            margin-left: 0% !important;
+        }
 
     .ChefsCards{
-        margin-left: 20%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
         margin-top: 5%;
         margin-bottom: 5%;
     }
